@@ -12,9 +12,10 @@ abstract class Player {
     }
     // Método abstracto que deben implementar las clases hijas
     public abstract void getName();
-    public abstract int makeGuess();
+    public abstract void makeGuess();
     public List<Integer> getGuesses() {
         return guesses;
     }
+
 
 }
