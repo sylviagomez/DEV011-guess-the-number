@@ -24,6 +24,8 @@ class HumanPlayer extends Player {
         System.out.print(name + ", ingresa tu suposición: ");
         int guess = scanner.nextInt();
         guesses.add(guess);
+
+
     }
 }
 
