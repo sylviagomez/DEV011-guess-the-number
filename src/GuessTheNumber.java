@@ -5,10 +5,9 @@ import java.util.ArrayList;
 public class GuessTheNumber {
     private final int targetNumber;
 
-    public GuessTheNumber() {
+    public GuessTheNumber(Random random) {
         //private static final Random random = new Random();
         //public static final int targetNumber = random.nextInt(100);*/
-        Random random = new Random();
         this.targetNumber = random.nextInt(100);
     }
 
@@ -25,7 +24,7 @@ public class GuessTheNumber {
         return false;
     }
 
-    public void GuessTheNumberGame(List<Player> players) {
+    public void PlayersTurn(List<Player> players) {
         for (Player player : players) {
             // Llamar al método getName() para que el jugador ingrese su nombre y realice alguna acción
             player.getName();
@@ -48,12 +47,12 @@ public class GuessTheNumber {
         }
 
     public static void main(String[] args) {
-        GuessTheNumber game = new GuessTheNumber();
+        GuessTheNumber game = new GuessTheNumber(new Random());
         //Lista de jugadores para intercalar turnos
         List<Player> players = new ArrayList<>();
         players.add(new HumanPlayer("Player 1"));
         players.add(new ComputerPlayer("Player 2"));
 
-        game.GuessTheNumberGame(players);
+        game.PlayersTurn(players);
     }
 }
