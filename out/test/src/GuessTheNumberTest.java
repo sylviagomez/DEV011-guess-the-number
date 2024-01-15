@@ -2,7 +2,7 @@ package src;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -13,29 +13,32 @@ class GuessTheNumberTest {
     public void testCheckGuess() {
         Random mockRandom = Mockito.mock(Random.class);
         when(mockRandom.nextInt(100)).thenReturn(3);
-
         // Crear un mock de Player
-        Player mockPlayer = Mockito.mock(Player.class);
+        Player mockPlayer1 = Mockito.mock(Player.class);
 
         // Configurar el comportamiento del mock de Player para getGuesses
-        LinkedList<Integer> guesses = new LinkedList<>();
-        guesses.add(2);
-        guesses.add(3);
-        guesses.add(4);
-        when(mockPlayer.getGuesses()).thenReturn(guesses);
+        ArrayList<Integer> guesses1 = new ArrayList<>();
+        guesses1.add(2);
+        when(mockPlayer1.getGuesses()).thenReturn(guesses1);
+
+        Player mockPlayer2 = Mockito.mock(Player.class);
+
+        ArrayList<Integer> guesses2 = new ArrayList<>();
+        guesses2.add(3);
+        when(mockPlayer2.getGuesses()).thenReturn(guesses2);
+
+        Player mockPlayer3 = Mockito.mock(Player.class);
+
+        ArrayList<Integer> guesses3 = new ArrayList<>();
+        guesses3.add(4);
+        when(mockPlayer3.getGuesses()).thenReturn(guesses3);
 
         GuessTheNumber game = new GuessTheNumber(mockRandom);
-
         // Crear un jugador y realizar una suposición menor al número objetivo
-        mockPlayer.getGuesses().getFirst();
-        assertFalse(game.checkGuess(mockPlayer));
-
+        assertFalse(game.checkGuess(mockPlayer1));
         // Crear un jugador y realizar una suposición igual al número objetivo
-        mockPlayer.getGuesses().get(1);
-        assertTrue(game.checkGuess(mockPlayer));
-
+        assertTrue(game.checkGuess(mockPlayer2));
         // Crear un jugador y realizar una suposición mayor al número objetivo
-        mockPlayer.getGuesses().getLast();
-        assertFalse(game.checkGuess(mockPlayer));
+        assertFalse(game.checkGuess(mockPlayer3));
     }
 }
