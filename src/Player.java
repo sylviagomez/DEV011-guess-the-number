@@ -1,4 +1,3 @@
-package src;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +8,7 @@ abstract class Player {
     public Player(String name) {
         this.name = name;
         this.guesses = new ArrayList<>();
+
     }
     // Método abstracto que deben implementar las clases hijas
     public abstract void getName();

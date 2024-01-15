@@ -1,4 +1,3 @@
-package src;
 import java.util.Scanner;
 
 class HumanPlayer extends Player {
@@ -24,6 +23,8 @@ class HumanPlayer extends Player {
         System.out.print(name + ", ingresa tu suposición: ");
         int guess = scanner.nextInt();
         guesses.add(guess);
+
+
     }
 }
 
