@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0421966-fc95-4e61-8398-41d52b64c079" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DEV011-guess-the-number.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/GuessTheNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DEV011-guess-the-number.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/.idea/DEV011-guess-the-number.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/.idea/libraries/junit_jupiter.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/.idea/libraries/mockito_core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/explaindev.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/src/ComputerPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/src/GuessTheNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/src/HumanPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/src/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DEV011-guess-the-number/thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/DEV011-guess-the-number/src/GuessTheNumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/src/GuessTheNumberTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComputerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComputerPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuessTheNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuessTheNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
