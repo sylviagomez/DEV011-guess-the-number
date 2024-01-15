@@ -79,7 +79,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GuessTheNumberTest (1)">
+  <component name="RunManager" selected="Application.GuessTheNumber">
     <configuration name="GuessTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GuessTheNumber" />
       <module name="DEV011-guess-the-number" />
@@ -109,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessTheNumber" />
         <item itemvalue="JUnit.GuessTheNumberTest (1)" />
         <item itemvalue="JUnit.GuessTheNumberTest" />
-        <item itemvalue="Application.GuessTheNumber" />
       </list>
     </recent_temporary>
   </component>
